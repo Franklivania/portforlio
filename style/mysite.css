@@ -1,0 +1,307 @@
+html{
+    margin: auto;
+    scroll-behavior: smooth;
+    color: black;
+    font-family: 'Cambria', serif;
+    border-bottom: 0;
+    background-color: #fff;
+    background: rgba(107, 88, 88, 0.7) url(city.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+@font-face {
+    font-family: "Cooper Black";
+    src: url("/fonts/cooper-black.otf");
+}
+header{
+    background-color: indigo;
+    font-family: 'Cambria', serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+    width: 105%; 
+    max-width: 1920px; 
+    min-width:480px; 
+    margin-left: -8px; 
+    overflow: hidden;
+}
+img{
+    border-radius: 50%;
+    position: absolute;
+}
+#frank{
+    border-radius: 50%;
+    float: left;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+h1{
+    margin-left: 70px;
+    margin-top: 25px;
+    transition: transform .2s;
+}
+header a h1:hover{
+    color: red;
+    opacity: 0.3;
+    transform: scale(0.9);
+}
+h2{
+    margin-left: 70px;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 18%;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.con{
+    background-color: rgb(177, 121, 218);
+    /* margin-top: 0.5px; */
+    color: black;
+    text-transform: capitalize;
+    transition: transform 0.5s;
+    text-align: center;
+    font-family: "Cooper Black", serif;
+    font-size: 20px;
+    margin-top: -20px;
+    width: 105%; 
+    max-width: 1920px; 
+    min-width:480px; 
+    margin-left: -8px; 
+    overflow: hidden;
+}
+.con:hover{
+    transform: scale(1.03);
+    font-weight: bolder;
+    cursor: not-allowed;
+    background-color: rgb(170, 90, 226);
+}
+.container{
+    font-family: "Cooper Black", serif;
+    font-size: 12px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    margin-top: 70px;
+}
+.laid{
+    font-family: "Cooper Black", serif;
+    font-size: 12px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    margin-top: 70px;
+}
+.eight{
+    font-family: "Cooper Black", serif;
+    font-size: 12px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    margin-top: 70px;
+}
+.again{
+    margin-left: 2%;
+    background-color: rgb(212, 240, 240);
+    border-radius: 5%;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 1s;
+}
+.again:hover{
+    background-color: rgb(111, 233, 233);
+    transform: scale(1.09);
+}
+.better{
+    margin-left: 5%;
+    background-color: rgb(105, 80, 80);
+    border-radius: 5%;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 1s;
+}
+.better:hover{
+    background-color: rgb(117, 63, 63);
+    transform: scale(1.09);
+}
+.canvas{
+    margin-left: 5%;
+    background-color: rgb(199, 199, 121);
+    border-radius: 5%;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 1s;
+}
+.canvas:hover{
+    background-color: rgb(177, 177, 63);
+    transform: scale(1.09);
+}
+.mary{
+    margin-left: 5%;
+    background-color: rgb(243, 165, 165);
+    border-radius: 5%;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 1s;
+}
+.mary:hover{
+    background-color: rgb(243, 96, 96);
+    transform: scale(1.09);
+}
+.griezz{
+    margin-left: 5%;
+    background-color: rgb(238, 73, 238);
+    border-radius: 5%;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 1s;
+}
+.griezz:hover{
+    background-color: rgb(167, 50, 167);
+    transform: scale(1.09);
+}
+.practical{
+    margin-left: 5%;
+    background-color: rgb(193, 163, 233);
+    border-radius: 5%;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 1s;
+}
+.practical:hover{
+    background-color: rgb(173, 102, 240);
+    transform: scale(1.09);
+}
+.serious{
+    margin-left: 5%;
+    background-color: rgb(144, 183, 228);
+    border-radius: 5%;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 1s;
+}
+.serious:hover{
+    background-color: rgb(79, 143, 226);
+    transform: scale(1.09);
+}
+.coder{
+    margin-left: 5%;
+    background-color: rgb(175, 221, 174);
+    border-radius: 5%;
+    width: 200px;
+    height: 100px;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 1s;
+}
+.coder:hover{
+    background-color: rgb(133, 224, 105);
+    transform: scale(1.09);
+}
+#one{
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.early{
+    margin: 100px auto;
+    text-align: center;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+}
+.early::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+.early::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+span{
+    background: none;
+}
+blockquote {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+blockquote p {
+    margin: 0 0 5px 0;
+    font-size: 15px;
+    text-align: center;
+}
+blockquote cite {
+    font-size: 20px;
+    font-weight:lighter;
+    font-style: italic;
+}  
+blockquote cite:before {
+    content: '–';
+    margin-right: 5px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: indigo;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

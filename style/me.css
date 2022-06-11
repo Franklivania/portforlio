@@ -1,0 +1,183 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    margin: auto;
+    padding: auto;
+    border-bottom: 0;
+    font-family: 'Lucida Grande', sans-serif;
+    font-size: 16px;
+    color: black;
+    scroll-behavior: smooth;
+    background-color: rgb(231, 231, 231);
+    background: rgba(0, 0, 0, 0.7) url(mountain.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+body{
+    box-sizing: border-box;
+}
+header{
+    background-color: indigo;
+    font-family: 'Cambria', serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    display: flex;
+    width: 100%;
+    padding: 3rem 0;
+    /* max-width: 1920px; 
+    min-width:480px; 
+    margin-left: -8px; 
+    overflow: hidden; */
+}
+img{
+    border-radius: 50%;
+    position: absolute;
+}
+#frank{
+    border-radius: 50%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+}
+h1{
+    text-align: center;
+    margin-left: 33%;
+}
+h3{
+    margin-left: 374px;
+    text-align: center;
+    font-size: 20px;
+    max-width: 600px;
+    text-transform: capitalize;
+    position: relative;
+}
+h3::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+h3::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+span{
+    background: none;
+}
+h2{
+    margin-top: 70px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.card1{
+    width: 20%;
+    height: 50%;
+    margin-top: 70px;
+    margin-left: 20%;
+    background-color: rgb(204, 206, 206);
+    border-radius: 15%;
+    height: 400px;
+    width: 700px;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 1s;
+}
+.card2{
+    width: 20%;
+    height: 50%;
+    margin-top: 70px;
+    margin-left: 10%;
+    margin-right: 5%;
+    background-color: rgb(138, 119, 114);
+    border-radius: 15%;
+    height: 400px;
+    width: 700px;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 1s;
+}
+section .card1:hover{
+    background-color: rgb(250, 255, 255);
+    opacity: 1.2;
+    transform: scale(1.2);
+}
+section .card2:hover{
+    background-color: rgb(182, 167, 162);
+    opacity: 1.2;
+    transform: scale(1.2);
+}
+#video{
+    display: block;
+    margin-left: 190px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#book{
+    display: block;
+    margin-left: 190px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: indigo;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
