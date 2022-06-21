@@ -1,0 +1,100 @@
+body{
+margin: fixed 0;
+padding: 0;
+box-sizing: content-box;
+background: black;
+background-image: url(beeple.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+backdrop-filter: blur(8px);
+}
+
+h2{
+    font-family: 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 100px;
+    color: gold;
+    text-align: center;
+}
+
+.p{
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', sans-serif ;
+    font-weight: lighter;
+    color: purple;
+}
+#a{
+    position: relative;
+    color: black;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 18px;
+    padding-bottom: 25%;
+    background-image: url(beeple.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ichi{
+    text-align: left;
+    color: purple;
+    font-family: 'Cambria', serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+#ni{
+    font-family: Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+}
+#san{
+    color: purple;
+    font-family: 'Cambria', serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: right;
+}
+#shi{
+    font-family: Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: right;
+}
+#go{
+    color: purple;
+    font-family: 'Cambria', serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: left;
+}
+#roku{
+    font-family: Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+}
+.in{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+.visit{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+#email{
+    align-items: center;
+    width: 20%;
+    height: 5%;
+}
+#pass{
+    align-items: center;
+    width: 20%;
+}
+.sign{
+    color: black;
+    font-weight: bolder;
+    float: center;
+}

@@ -1,0 +1,61 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tahoma';
+}
+
+body{
+    
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background: rgb(10, 10, 10);
+    background-image: url(jinx-powder.jpg);
+    background-size: cover;
+
+}
+h2{
+    position: relative;
+    font-size: 14vw;
+    color: lightseagreen;
+    -webkit-text-stroke: 0.3vw;
+    text-transform: uppercase;
+}
+h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: rgb(71, 12, 54);
+    -webkit-text-stroke: 0vw #3b3b3b;
+    border-right: 2px solid rgb(71, 12, 54);
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
+.a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 200px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 4px;
+    text-shadow: -10px -2px purple;
+    text-align: left;
+    text-decoration: 4s blink;
+
+}

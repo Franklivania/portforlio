@@ -1,0 +1,25 @@
+body{
+    margin: fixed 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+header{
+    color: black;
+    font-family: 'Impact', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 0 0 5px purple;
+    text-transform: uppercase;
+}
+.container{
+    padding: 60px 60px;
+    background-color: midnightblue;
+}
+.topnav{
+    background-color: khaki;
+    color: black;
+    text-transform: uppercase;
+    justify-content: space-around;
+    
+}

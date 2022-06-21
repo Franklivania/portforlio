@@ -1,0 +1,21 @@
+body{
+    margin: fixed;
+    background-color: rgb(15, 29, 112);
+}
+
+h1{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: purple;
+    text-align: center;
+    text-shadow: -4px -2px 0px black;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Cochin', serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    color: khaki;
+}

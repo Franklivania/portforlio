@@ -1,0 +1,40 @@
+body{
+    margin: 0 0 auto 0;
+    padding: 60px 0;
+    background: grey;
+    color: black;
+}
+header{
+    margin: 0 30px 10px 30px;
+    padding: 30px 0;
+    font-family: 'Verdana', sans-serif;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 70px;
+    color: chocolate;
+    background: burlywood;
+    cursor: no-drop;
+}
+header :hover{
+    color: blue;
+}
+.navbar{
+    margin: 0 30px 70px 30px;
+    background: whitesmoke;
+    color: rgb(21, 151, 134);
+    text-transform: uppercase;
+    font-family: 'Impact', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    justify-content:space-between;
+    justify-items: center;
+    cursor: pointer;
+}
+.navbar a{
+    color: darkslategrey;
+    overflow: hidden;
+}
+.navbar a:hover{
+    color: blue;
+}

@@ -14,7 +14,7 @@ html{
     color: black;
     scroll-behavior: smooth;
     background-color: rgb(231, 231, 231);
-    background: rgba(0, 0, 0, 0.7) url(mountain.jfif);
+    background: rgba(0, 0, 0, 0.7) url(../image/mountain.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;

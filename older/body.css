@@ -1,0 +1,82 @@
+body {
+    background: rgb(6, 35, 63);
+    margin: fixed 0;
+}
+           
+#backgroundImage {
+    border: none;
+    height: auto;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: auto;
+        }
+           
+    [show-background-image] #backgroundImage {
+    visibility: transparent;
+        }
+           
+#wel {
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(6, 35, 63);
+    font-style: oblique;
+}
+    
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: seagreen;
+    font-family:  'Lucida Sans Unicode', sans-serif;
+    font-weight: bolder;
+    animation: animate 1.5s linear infinite;
+}
+@keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.7;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+#log {
+    width: 20%;
+    text-align: center;
+    color: blueviolet;
+}
+           
+#con {
+    width: 100%;
+    height: 100px;
+    color: cyan;
+}
+#rim{
+    position: left;
+    padding-bottom: 28%;
+    color: green;
+    text-shadow: -4px -4px 5px black;
+}
+.dim{
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-shadow: 3px -2px 3px darkgreen;
+}
+.bim{
+    text-align: right;
+}
+.him{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-shadow: 3px -2px 3px darkgreen;
+}
